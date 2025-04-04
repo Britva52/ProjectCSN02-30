@@ -26,3 +26,7 @@ def support(request):
 def games(request):
     print("Страница 'Игры' была вызвана")
     return render(request, 'games.html')
+
+
+def home(request):
+    return render(request, 'home.html')

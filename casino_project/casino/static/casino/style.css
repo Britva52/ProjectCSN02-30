@@ -2,15 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #93abfb;
 }
 
+/*
 header {
     background-color: #444;
-    color: white;
+    color: red;
     padding: 10px 0;
     text-align: center;
 }
+
+
 
 nav ul {
     list-style-type: none;
@@ -25,7 +28,7 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
-}
+*/
 
 section {
     padding: 20px;
@@ -36,4 +39,267 @@ footer {
     padding: 10px 0;
     background-color: #444;
     color: white;
+}
+
+
+.support-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.support-page h1 {
+    font-size: 2.5em;
+    color: #850000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.support-page p {
+    text-align: center;
+}
+
+.support-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.support-page nav ul li {
+    margin: 0 10px;
+}
+
+.support-page nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #008518;
+    border-radius: 7px;
+    transition: background-color 0.6s ease;
+}
+
+.support-page nav a:hover {
+    background-color: #852c00;
+}
+
+.games-page h1 {
+    font-size: 2.5em;
+    color: #ff8b1f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.games-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.games-page nav ul li {
+    margin: 0 10px;
+}
+
+.games-page nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #008518;
+    border-radius: 7px;
+    transition: background-color 0.6s ease;
+}
+
+.games-page nav a:hover {
+    background-color: #852c00;
+}
+
+.games-page p {
+    text-align: center;
+}
+
+#wheelCanvas {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+#betAmount {
+    width: 80px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#spinButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#spinButton:hover {
+    background-color: #3e8e41;
+}
+
+#balance {
+    font-weight: bold;
+}
+
+#result {
+    margin-top: 10px;
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-page header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.home-page h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.home-page .subheader {
+    font-size: 2.2em;
+    color: #ddd;
+}
+
+.home-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.home-page nav ul li {
+    margin: 0 15px;
+}
+
+.home-page nav a {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+}
+
+.home-page nav a:hover {
+    background-color: #0056b3;
+}
+
+.home-page header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-page nav a {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.about-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-page h1 {
+    font-size: 2.5em;
+    color: #850000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-page p {
+    text-align: center;
+}
+
+.about-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-page nav ul li {
+    margin: 0 10px;
+}
+
+.about-page nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #008518;
+    border-radius: 7px;
+    transition: background-color 0.6s ease;
+}
+
+.about-page nav a:hover {
+    background-color: #852c00;
+}
+
+.contacts-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contacts-page h1 {
+    font-size: 2.5em;
+    color: #850000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacts-page p {
+    text-align: center;
+}
+
+.contacts-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-page nav ul li {
+    margin: 0 10px;
+}
+
+.contacts-page nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #008518;
+    border-radius: 7px;
+    transition: background-color 0.6s ease;
+}
+
+.contacts-page nav a:hover {
+    background-color: #852c00;
+}
+
+body {
+    font-family: 'Winky Sans', sans-serif;
 }
